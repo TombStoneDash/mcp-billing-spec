@@ -3,6 +3,8 @@
 **An open standard for billing, metering, receipts, verification, and dispute resolution in MCP tool ecosystems.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Spec Version](https://img.shields.io/badge/spec-v1.0-blue)](https://noui.bot/specs/mcp-billing-v1)
+[![Reference Implementation](https://img.shields.io/badge/implementation-live-green)](https://noui.bot/docs/bazaar)
 
 ---
 
@@ -15,6 +17,14 @@ There are 10,000+ MCP servers but most are hobby-quality because developers can'
 - **Platforms** compete on implementation details instead of value
 
 This spec creates a common language for MCP billing.
+
+## Quick Start
+
+**Want to monetize your MCP server?** → [Provider Quickstart Guide](https://noui.bot/docs/guides/provider-quickstart) (5 minutes)
+
+**Want to use paid MCP tools?** → [Consumer Quickstart](https://noui.bot/docs/quickstart) (3 minutes)
+
+**Want to implement the spec?** → Read [mcp-billing-v1.md](./mcp-billing-v1.md)
 
 ## What It Covers
 
@@ -38,9 +48,30 @@ This spec creates a common language for MCP billing.
 The [Agent Bazaar](https://noui.bot) at noui.bot is the reference implementation:
 
 - **API:** `https://noui.bot/api/v1` (v0.4.0)
+- **Provider Guide:** [noui.bot/docs/guides/provider-quickstart](https://noui.bot/docs/guides/provider-quickstart)
 - **SDK:** `npm install @noui/bazaar-sdk`
 - **OpenAPI:** `https://noui.bot/api/openapi.json`
 - **Source:** [github.com/TombStoneDash/noui-bot](https://github.com/TombStoneDash/noui-bot)
+
+### Key Features
+
+- **Per-call billing** with sub-cent precision ($0.001 minimum)
+- **82% revenue share** for providers (18% platform fee)
+- **Signed receipts** (HMAC-SHA256) on every transaction
+- **Trust scores** with verified provider badges
+- **Dispute resolution** with full status flow
+- **Zero code changes** — proxy to existing MCP servers
+
+## Competitive Landscape
+
+See how Agent Bazaar compares to other approaches: [noui.bot/docs/compare](https://noui.bot/docs/compare)
+
+| Platform | Status | Trust Layer | Open Standard |
+|----------|--------|-------------|---------------|
+| **Agent Bazaar** | Live | ✅ v0.4.0 | ✅ This spec |
+| xpay | Live | ❌ | ❌ |
+| TollBit | Pre-launch | ❌ | ❌ |
+| MCP Hive | Pre-launch (Mar 8) | ❌ | ❌ |
 
 ## For Other Billing Providers
 
