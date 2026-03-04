@@ -49,7 +49,7 @@ The [Agent Bazaar](https://noui.bot) at noui.bot is the reference implementation
 
 - **API:** `https://noui.bot/api/v1` (v0.4.0)
 - **Provider Guide:** [noui.bot/docs/guides/provider-quickstart](https://noui.bot/docs/guides/provider-quickstart)
-- **SDK:** `npm install @noui/bazaar-sdk`
+- **SDK:** `npm install @forthebots/bazaar-sdk`
 - **OpenAPI:** `https://noui.bot/api/openapi.json`
 - **Source:** [github.com/TombStoneDash/noui-bot](https://github.com/TombStoneDash/noui-bot)
 
@@ -90,9 +90,11 @@ We'd rather be the reference implementation of a universal standard than a walle
 - PRs welcome for typos, examples, and additional appendices
 - Major schema changes should go through an issue discussion first
 
-## License
+## License & Patent Pledge
 
-MIT — Copy it. Fork it. Implement it. That's the point.
+This specification is released under MIT. No contributor may assert patents against implementations of this specification. This commitment is irrevocable.
+
+Copy it. Fork it. Implement it. That's the point.
 
 ---
 
