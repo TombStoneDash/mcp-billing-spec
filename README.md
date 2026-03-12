@@ -8,6 +8,10 @@
 
 ---
 
+<a href="https://glama.ai/mcp/servers/TombStoneDash/mcp-billing-spec">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/TombStoneDash/mcp-billing-spec/badge" alt="Agent Bazaar MCP server" />
+</a>
+
 ## Why This Exists
 
 There are 10,000+ MCP servers but most are hobby-quality because developers can't earn from them. Multiple companies are building billing solutions independently with incompatible schemas. This fragmentation hurts everyone:
