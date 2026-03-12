@@ -1,0 +1,8 @@
+{
+  "$schema": "https://glama.ai/mcp/schemas/server.json",
+  "maintainers": [
+    "TombStoneDash"
+  ],
+  "name": "Agent Bazaar — MCP Billing Spec",
+  "description": "Open standard for billing, metering, receipts, verification, and dispute resolution in MCP tool ecosystems. Reference implementation at noui.bot."
+}
