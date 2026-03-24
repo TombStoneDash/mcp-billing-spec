@@ -56,7 +56,7 @@ The [Agent Bazaar](https://noui.bot) at noui.bot is the reference implementation
 ### Key Features
 
 - **Per-call billing** with sub-cent precision ($0.001 minimum)
-- **82% revenue share** for providers (18% platform fee)
+- **90% revenue share** for providers (10% platform fee)
 - **Signed receipts** (HMAC-SHA256) on every transaction
 - **Trust scores** with verified provider badges
 - **Dispute resolution** with full status flow
